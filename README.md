@@ -1,134 +1,149 @@
 # 🧬 AI in Translational Science  
 
-**Building reproducible AI workflows for genomics, single-cell biology, and precision medicine.**
+**Applied Machine Learning & Deep Learning for Oncology and Precision Medicine**
 
-This repository documents my structured journey applying machine learning and generative AI to real biomedical datasets, with a focus on:
+This repository showcases industry-oriented AI projects focused on translational cancer research, integrating multi-omics data, imaging, and data engineering workflows.
 
-- Cancer transcriptomics (TCGA, bulk RNA-seq)
-- Single-cell & spatial omics
-- Biomarker discovery
-- Predictive modeling for translational research
-- Generative models in biology
-
-All projects emphasize:
-- Reproducibility
-- Clean code structure
-- Proper validation
-- Transparent evaluation
-- Biomedical interpretability
+The goal is to build reproducible, validated, and clinically relevant AI pipelines that bridge computational modeling with real-world biomedical applications.
 
 ---
 
-## 📌 Repository Structure
+## 🚀 Core Competencies Demonstrated
 
-
----
-
-## 🚀 Projects
-
-| Project | Topic | Dataset | Methods | Status |
-|----------|--------|---------|----------|---------|
-| **Project 1** | Deep Learning for Prostate Cancer Classification | TCGA PRAD RNA-seq | Keras DNN, Early Stopping, AUROC | ✅ Completed |
-| Project 2 | (Planned) TCGA BRCA Subtype Classification | TCGA BRCA | Baseline ML + DNN | ⏳ In Progress |
-| Project 3 | (Planned) Single-Cell Embedding Learning | Public scRNA-seq | Autoencoders / Contrastive Learning | 🧠 Design Phase |
-| Project 4 | (Planned) Generative Model for Cancer Subtypes | TCGA PAM50 | Conditional VAE | 🔬 Planned |
+- Predictive modeling using bulk RNA-seq
+- Survival modeling and risk prediction
+- Multi-class tumor subtype classification
+- Comparative evaluation of ML algorithms
+- Deep learning on histopathology images (CNN)
+- Data acquisition and automation (web scraping)
+- Reproducible ML workflows with proper validation
 
 ---
 
-## 🧪 Example: Project 1 – Prostate Cancer (TCGA PRAD)
+## 📂 Project Portfolio
 
-**Goal**  
-Build a deep neural network classifier to distinguish prostate cancer samples using RNA-seq gene expression profiles.
-
-**Highlights**
-- Train/validation split
-- Standardization of gene expression
-- Early stopping
-- AUROC + Accuracy evaluation
-- Model + scaler saved for reproducibility
-
-**Why this matters**  
-Bulk RNA-seq classification pipelines are foundational for:
-- Biomarker discovery
-- Translational oncology modeling
-- AI-guided therapeutic stratification
-
-📂 See: `projects/Project1_PRAD_TCGA_DNN/`
+| # | Project | Domain | Methods | Impact Focus |
+|---|---------|--------|---------|--------------|
+| **1** | Deep Learning-Based Identification of Prostate Cancer (TCGA RNA-seq) | Bulk transcriptomics | Keras DNN, Early Stopping, AUROC | Molecular classification |
+| **2** | Multilayer Perceptron for Breast Cancer Survival Prediction | Clinical + Gene Expression | MLP, Survival outcome modeling | Risk stratification |
+| **3** | Comparison of Five ML Methods for Breast Cancer Subtyping (R) | Biomarker-based classification | Logistic Regression, RF, SVM, KNN, Naïve Bayes | Model benchmarking |
+| **4** | Comparative ML Subtyping in Python | Biomarker expression | RF, SVM, XGBoost, Neural Nets | Cross-platform validation |
+| **5** | CNN for Breast Cancer Histopathology (8000 Images) | Digital pathology | Convolutional Neural Networks | Imaging-based diagnosis |
+| **6** | Web Scraping for Cancer Omics Data | Data engineering | Python scraping pipelines | Automated data acquisition |
 
 ---
 
-## 🧠 Learning Roadmap
+## 🧪 Project Highlights
 
-### Phase 1 — Foundations
-- Classical ML (Logistic Regression, Random Forest, XGBoost)
-- Cross-validation & evaluation metrics
-- Feature importance & interpretability
+### 🧠 Project 1 — Prostate Cancer Classification (TCGA)
 
-### Phase 2 — Deep Learning
-- Feedforward networks for transcriptomics
-- Autoencoders for dimensionality reduction
-- Model calibration & uncertainty
+- Built deep neural network classifier using RNA-seq data  
+- Implemented validation split and performance evaluation (Accuracy + AUROC)  
+- Standardized gene expression features  
+- Designed reproducible training pipeline  
 
-### Phase 3 — Generative AI in Biology
-- Variational Autoencoders
-- Conditional VAEs for subtype modeling
-- Diffusion models (future direction)
-
-### Phase 4 — Single-Cell & Spatial AI
-- Embedding learning
-- Cell type classification
-- Graph neural networks
+**Industry relevance:**  
+Foundation for transcriptomic-based diagnostics and molecular tumor classification.
 
 ---
 
-## 🔬 Technical Stack
+### 📊 Project 2 — Breast Cancer Survival Prediction
 
-- Python
-- TensorFlow / Keras
-- PyTorch (planned expansion)
-- Scikit-learn
-- Pandas / NumPy
-- Matplotlib / Seaborn
+- Developed MLP-based predictive model  
+- Modeled survival outcomes using gene expression + clinical features  
+- Demonstrates predictive modeling in precision oncology  
+
+**Industry relevance:**  
+Risk prediction models for patient stratification and therapy selection.
+
+---
+
+### 🔬 Project 3 & 4 — ML Benchmarking for Tumor Subtyping
+
+- Compared classical ML algorithms across biomarker panels  
+- Implemented models in both R and Python  
+- Evaluated performance differences across frameworks  
+
+**Industry relevance:**  
+Algorithm benchmarking for clinical decision support systems.
+
+---
+
+### 🧫 Project 5 — CNN for Histopathology Classification
+
+- Trained convolutional neural network on 8,000 pathology images  
+- Applied deep learning to digital pathology  
+- Demonstrated end-to-end image preprocessing and training  
+
+**Industry relevance:**  
+AI-driven pathology diagnostics and computational histology.
+
+---
+
+### 🌐 Project 6 — Web Scraping for Cancer Omics Data
+
+- Built automated pipeline for extracting omics data  
+- Structured data ingestion workflow  
+
+**Industry relevance:**  
+Scalable biomedical data engineering for AI pipelines.
+
+---
+
+## 🏗 Technical Stack
+
+- Python (TensorFlow/Keras, Scikit-learn, Pandas, NumPy)
+- R (caret, statistical modeling)
+- Deep Learning (DNN, CNN)
+- Machine Learning benchmarking
+- Data preprocessing & feature engineering
+- Automated data acquisition
+
+---
+
+## 📈 Translational AI Focus
+
+This repository reflects a structured progression:
+
+1. Bulk transcriptomic classification  
+2. Survival modeling  
+3. Algorithm benchmarking  
+4. Imaging-based deep learning  
+5. Data engineering automation  
+
+The long-term direction includes:
+
+- Multi-omics integration
+- Generative AI models for subtype simulation
+- Model interpretability (SHAP, Integrated Gradients)
+- Clinical-grade ML validation workflows
+- Scalable cloud-based training pipelines
 
 ---
 
 ## ⚠️ Data Usage Notice
 
-No raw patient-level TCGA data is stored in this repository.
+No raw patient-level TCGA or protected clinical data are stored in this repository.
 
-Scripts assume users download data from:
-- TCGA / GDC Data Portal
-- Public GEO datasets
+Users must obtain datasets directly from:
+- TCGA / GDC Portal
+- Public breast cancer datasets
+- Public histopathology datasets
 
-All pipelines are designed to be reproducible using publicly accessible datasets.
-
----
-
-## 📈 Future Directions
-
-- Model interpretability (SHAP, Integrated Gradients)
-- Multi-omics integration
-- Foundation models for cellular state prediction
-- LLM-assisted biomarker hypothesis generation
-- Cloud training workflows
+All pipelines are designed for reproducibility with publicly accessible data.
 
 ---
 
-## 🤝 Purpose
+## 🎯 Career Objective
 
-This repository serves as:
+Positioning AI at the intersection of:
 
-- A structured AI learning record
-- A reproducible portfolio for industry positions
-- A sandbox for translational AI experiments
-- A foundation for future academic/biotech collaborations
+- Oncology
+- Computational biology
+- Precision medicine
+- Machine learning engineering
+- Translational biotech
+
+Open to collaboration in computational oncology and AI-driven drug discovery.
 
 ---
-
-## 📬 Contact
-
-Open to collaboration in:
-- Computational oncology
-- Single-cell AI
-- Generative biology models
-- Translational biomarker discovery
