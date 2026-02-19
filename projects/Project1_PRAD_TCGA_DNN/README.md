@@ -101,31 +101,5 @@ pip install tensorflow pandas numpy dill
 
 python Machine_Learning_Project_1_Deep_Learning-based_Identification_of_Prostate_Cancer_using_TCGA_RNA_seq.py
 
----
-
----
-
-# 💡 Important Recommendation
-
-Your current implementation is a **great learning start**, but if you want this project to impress biotech/AI hiring managers, I strongly recommend:
-
-- Adding train/test split
-- Adding AUROC
-- Adding proper scaling
-- Saving model weights instead of dill session
-- Including a ROC curve image in README
-
-If you'd like, I can next:
-
-- 🔥 Rewrite the code into a “production-ready v2”
-- 📊 Add ROC + confusion matrix figure
-- 🧠 Add SHAP interpretability
-- 🎯 Upgrade this to industry-grade quality
-
-Just tell me the level you want:
-- Learning project
-- Industry portfolio
-- Research-paper style
-- Generative AI extension
 
 
