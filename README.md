@@ -17,6 +17,8 @@ The goal is to build reproducible, validated, and clinically relevant AI pipelin
 - Deep learning on histopathology images (CNN)
 - Data acquisition and automation (web scraping)
 - Reproducible ML workflows with proper validation
+- Conditional Variational Autoencoder (CVAE)
+- [Shinylive apps](https://zhaoyuqi616.github.io/Project8_OncoGene_CCLE_Explorer_Shiny/)
 
 ---
 
@@ -30,7 +32,8 @@ The goal is to build reproducible, validated, and clinically relevant AI pipelin
 | **4** | Comparative ML Subtyping in Python | Biomarker expression | RF, SVM, XGBoost, Neural Nets | Cross-platform validation |
 | **5** | CNN for Breast Cancer Histopathology (8000 Images) | Digital pathology | Convolutional Neural Networks | Imaging-based diagnosis |
 | **6** | Web Scraping for Cancer Omics Data | Data engineering | Python scraping pipelines | Automated data acquisition |
-
+| **7** | Conditional Variational Autoencoder (CVAE) for Cancer Samples | Controlled Sample Generation | CVAE (Deep Generative Modeling) | Patient stratification |
+| **8** | [OncoGene CCLE Explorer Shiny App](https://zhaoyuqi616.github.io/Project8_OncoGene_CCLE_Explorer_Shiny/) | Cancer Cell Line Encyclopedia | R Shiny, Web Visualization | Genomic data exploration |
 ---
 
 ## 🧪 Project Highlights
