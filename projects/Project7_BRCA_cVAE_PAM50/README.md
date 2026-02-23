@@ -127,6 +127,7 @@ python -m src.train
 python -m src.eval
 ### 5️⃣ Generate subtype-conditioned expression profiles
 python -m src.sample
+```
 
 ---
 
