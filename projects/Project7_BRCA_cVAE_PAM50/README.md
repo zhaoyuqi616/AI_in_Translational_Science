@@ -82,29 +82,31 @@ Encoder outputs:
 ---
 
 ## 📁 Project Structure
+```text
 projects/Project7_BRCA_cVAE_PAM50/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-│   └── (NOT COMMITTED)  # BRCA_PAM50_Expression.txt, BRCA_Subtypes.txt
-├── src/
+├── README.md              # Project-specific documentation
+├── requirements.txt       # Managed Python dependencies
+├── .gitignore             # Ensures sensitive/large data is not tracked
+├── data/                  # Local data storage (excluded from Git)
+│   └── (NOT COMMITTED)    # BRCA_PAM50_Expression.txt, BRCA_Subtypes.txt
+├── src/                   # Core functional logic and model architecture
 │   ├── __init__.py
-│   ├── config.py
-│   ├── data.py
-│   ├── model.py
-│   ├── train.py
-│   ├── eval.py
-│   ├── sample.py
-│   └── utils.py
-├── notebooks/
+│   ├── config.py          # Hyperparameters and directory paths
+│   ├── data.py            # Data loading and preprocessing pipelines
+│   ├── model.py           # CVAE architecture implementation
+│   ├── train.py           # Model training procedures
+│   ├── eval.py            # Performance evaluation scripts
+│   ├── sample.py          # Latent space sampling and generation
+│   └── utils.py           # Reusable helper functions
+├── notebooks/             # Exploratory data analysis and visualization
 │   └── 01_latent_space_visualization.ipynb
-├── outputs/
-│   ├── models/
-│   ├── figures/
-│   └── metrics/
-└── scripts/
-    └── run_all.sh
+├── outputs/               # Directory for generated artifacts
+│   ├── models/            # Serialized model weights (.pth or .h5)
+│   ├── figures/           # Generated plots and visualization results
+│   └── metrics/           # Log files and performance statistics
+└── scripts/               # DevOps and automation tasks
+    └── run_all.sh         # Shell script to automate the full pipeline
+
 
 ---
 
