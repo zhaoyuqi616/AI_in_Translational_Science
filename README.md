@@ -17,6 +17,7 @@ The goal is to build reproducible, validated, and clinically relevant AI pipelin
 - Deep learning on histopathology images (CNN)
 - Data acquisition and automation (web scraping)
 - Reproducible ML workflows with proper validation
+- Conditional Variational Autoencoder (CVAE)
 
 ---
 
@@ -30,6 +31,7 @@ The goal is to build reproducible, validated, and clinically relevant AI pipelin
 | **4** | Comparative ML Subtyping in Python | Biomarker expression | RF, SVM, XGBoost, Neural Nets | Cross-platform validation |
 | **5** | CNN for Breast Cancer Histopathology (8000 Images) | Digital pathology | Convolutional Neural Networks | Imaging-based diagnosis |
 | **6** | Web Scraping for Cancer Omics Data | Data engineering | Python scraping pipelines | Automated data acquisition |
+| **7** | Conditional Variational Autoencoder (CVAE) for Cancer Samples | Controlled Sample Generation | CVAE (Deep Generative Modeling) | Patient stratification |
 
 ---
 
