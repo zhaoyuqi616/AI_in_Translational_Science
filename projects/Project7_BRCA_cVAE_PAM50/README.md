@@ -107,10 +107,11 @@ projects/Project7_BRCA_cVAE_PAM50/
 └── scripts/               # DevOps and automation tasks
     └── run_all.sh         # Shell script to automate the full pipeline
 
-
 ---
 
 ## ▶️ How to Run
+
+---
 
 ### 1️⃣ Install dependencies
 ```bash
