@@ -82,6 +82,7 @@ Encoder outputs:
 ---
 
 ## 📁 Project Structure
+
 ```text
 projects/Project7_BRCA_cVAE_PAM50/
 ├── README.md              # Project-specific documentation
@@ -106,6 +107,7 @@ projects/Project7_BRCA_cVAE_PAM50/
 │   └── metrics/           # Log files and performance statistics
 └── scripts/               # DevOps and automation tasks
     └── run_all.sh         # Shell script to automate the full pipeline
+```
 
 ---
 
@@ -128,7 +130,7 @@ python -m src.sample
 
 ---
 
-📊 Output
+## 📊 Output
 
 After running, you should have:
 
@@ -144,7 +146,7 @@ outputs/metrics/generated_Basal_n10.csv (example subtype-conditioned samples)
 
 ---
 
-🔬 Scientific Context
+## 🔬 Scientific Context
 
 cVAEs are useful in translational genomics because they can:
 
@@ -160,7 +162,7 @@ This is a stepping stone toward modern biological foundation model ideas (repres
 
 ---
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 This cVAE is trained only on PAM50 genes (small feature space)
 
@@ -172,7 +174,7 @@ No explicit batch correction included (could be added via covariates)
 
 ---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Expand from PAM50 to larger gene sets (e.g., Hallmarks / variable genes)
 
@@ -186,4 +188,4 @@ Compare against scVI-like frameworks for deeper generative modeling
 
 ---
 
-python -m src.train
+
