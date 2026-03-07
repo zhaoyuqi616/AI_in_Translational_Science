@@ -95,17 +95,17 @@ Project1_PRAD_TCGA_DNN/
 ```bash
 pip install tensorflow pandas numpy dill
 ```
-2️⃣ Place Dataset
+### 2️⃣ Place Dataset
 
 Ensure the TCGA PRAD RNA-seq dataset CSV is located in the working directory.
 
 Modify the file path inside the script if necessary.
 
-3️⃣ Run Training
+### 3️⃣ Run Training
 ```
 python Machine_Learning_Project_1_Deep_Learning-based_Identification_of_Prostate_Cancer_using_TCGA_RNA_seq.py
 ```
-📊 ## Expected Output
+### 📊 Expected Output
 
 The script prints:
 
@@ -115,7 +115,7 @@ Evaluation accuracy
 
 ---
 
-🔬 ## Scientific Context
+## 🔬 Scientific Context
 
 Deep learning models applied to bulk RNA-seq data can:
 
@@ -131,7 +131,7 @@ This project demonstrates a foundational workflow for applying neural networks t
 
 ---
 
-⚠️ ## Limitations
+## ⚠️ Limitations
 
 This initial implementation:
 
@@ -149,7 +149,7 @@ Future versions will improve robustness and reproducibility.
 
 ---
 
-🚀 ## Future Improvements
+## 🚀 Future Improvements
 
 Planned enhancements:
 
@@ -171,7 +171,7 @@ Model export for deployment
 
 ---
 
-🧬 ## Translational Relevance
+## 🧬 Translational Relevance
 
 This workflow illustrates how AI models can be integrated into:
 
