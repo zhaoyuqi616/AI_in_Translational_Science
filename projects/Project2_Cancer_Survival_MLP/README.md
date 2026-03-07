@@ -80,12 +80,13 @@ Adam
 ---
 
 ## 📁 Project Structure
+```text
 Project2_BreastCancer_Survival_MLP/
 │
 ├── Machine_Learning_Project_2_Develop_A_Multilayer_Perceptron_Model_for_Predicting_Breast_Cancer_Survival.py
 ├── haberman.csv
 ├── README.md
-
+```
 ---
 
 ## ▶️ How to Run
