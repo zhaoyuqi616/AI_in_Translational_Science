@@ -86,10 +86,6 @@ Project1_PRAD_TCGA_DNN/
 - PRAD_TCGA_RNA_seq.txt
 - PRAD_TCGA_Types.txt
 
-
----
-
-
 ---
 
 ## ▶️ How to Run
@@ -109,14 +105,17 @@ Modify the file path inside the script if necessary.
 ```
 python Machine_Learning_Project_1_Deep_Learning-based_Identification_of_Prostate_Cancer_using_TCGA_RNA_seq.py
 ```
-📊 Expected Output
+📊 ## Expected Output
 
 The script prints:
 
 Training accuracy
 
 Evaluation accuracy
-🔬 Scientific Context
+
+---
+
+🔬 ## Scientific Context
 
 Deep learning models applied to bulk RNA-seq data can:
 
@@ -130,7 +129,9 @@ Provide groundwork for multi-omics integration
 
 This project demonstrates a foundational workflow for applying neural networks to transcriptomic cancer datasets.
 
-⚠️ Limitations
+---
+
+⚠️ ## Limitations
 
 This initial implementation:
 
@@ -146,7 +147,9 @@ Does not assess AUROC
 
 Future versions will improve robustness and reproducibility.
 
-🚀 Future Improvements
+---
+
+🚀 ## Future Improvements
 
 Planned enhancements:
 
@@ -166,7 +169,9 @@ Cross-cohort validation
 
 Model export for deployment
 
-🧬 Translational Relevance
+---
+
+🧬 ## Translational Relevance
 
 This workflow illustrates how AI models can be integrated into:
 
