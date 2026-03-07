@@ -74,4 +74,120 @@ Five supervised learning models are implemented and compared:
 ---
 
 ## 📁 Project Structure
+```text
+Project3_BRCA_Subtype_Comparison/
+│
+├── Machine_Learning_Project_3_-_Comparison_of_Five_Machine_Learning_Methods_in_Subtyping_Breast_Cancer_Tumors_Based_on_Gene_Expression_of_Biomarkers.R
+├── BRCA_Data_Retrieval.R
+├── BRCA_PAM50_Expression.txt
+├── BRCA_Subtypes.txt
+├── PAM50_Genes.txt
+├── README.md
+```
 
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Install Required R Packages
+
+```r
+install.packages(c("caret", "e1071", "randomForest", "class"))
+```
+### 2️⃣ Run the Script
+```r
+source("Machine_Learning_Project_3_-_Comparison_of_Five_Machine_Learning_Methods_in_Subtyping_Breast_Cancer_Tumors_Based_on_Gene_Expression_of_Biomarkers.R")
+```
+### 📊 Output
+
+The script outputs:
+
+Model accuracy for each algorithm
+
+Performance comparison table
+
+Best-performing classifier identification
+
+---
+
+## 📈 Results
+
+The project compares predictive performance across models to determine:
+
+Which algorithm best captures subtype-specific gene expression patterns
+
+The relative robustness of linear vs non-linear classifiers
+
+Feasibility of biomarker-based subtype prediction
+
+Random Forest and SVM are expected to perform strongly due to non-linear decision boundaries.
+
+---
+
+## 🔬 Scientific Context
+
+Breast cancer molecular subtyping is foundational in:
+
+Treatment stratification
+
+Prognosis estimation
+
+Hormone receptor targeting
+
+HER2-targeted therapy decisions
+
+Precision oncology
+
+PAM50 biomarkers are widely used clinically to classify breast tumors.
+
+This project demonstrates how AI models can replicate and potentially enhance subtype prediction.
+
+---
+
+## ⚠️ Limitations
+
+Limited feature set (PAM50 only)
+
+No cross-validation
+
+No hyperparameter tuning
+
+No external validation cohort
+
+No model interpretability analysis
+
+Does not integrate multi-omics data
+
+---
+
+## 🚀 Future Improvements
+
+Stratified k-fold cross-validation
+
+Hyperparameter tuning (Grid Search)
+
+ROC curves for each subtype
+
+Confusion matrix visualization
+
+SHAP-based feature importance
+
+Expansion to full transcriptome
+
+Deep learning classifier comparison
+
+Integration with clinical variables
+
+---
+
+## 🧬 Translational Relevance
+
+This work supports:
+
+AI-assisted molecular subtype prediction
+
+Biomarker-driven oncology modeling
+
+Translational cancer research workflows
+
+Precision medicine decision support systems
