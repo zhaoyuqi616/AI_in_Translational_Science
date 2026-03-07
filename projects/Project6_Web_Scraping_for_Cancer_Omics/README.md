@@ -159,5 +159,102 @@ Demonstrates:
 
 ```bash
 pip install requests beautifulsoup4 pandas lxml
+```
+### 2️⃣ Run Script
+```bash
 python Machine_Learning_Project_6_-_Web_Scraping_for_Cancer_Omics_Data.py
+```
+### 📊 Output
 
+The script generates:
+
+Extracted TCGA tissue site tables (.txt / .xls)
+
+Structured UniProt annotation table
+
+JSON protein data from EBI API
+
+Printed webpage metadata (e.g., title)
+---
+
+## 📈 Applications
+
+This project supports:
+
+Automated cancer metadata retrieval
+
+Omics dataset harmonization
+
+Biomarker annotation pipelines
+
+Protein structure and function mapping
+
+Data preprocessing for ML workflows
+
+AI-ready metadata curation
+
+---
+
+## 🔬 Scientific Context
+
+Large-scale cancer genomics projects (TCGA, cBioPortal) require:
+
+Automated metadata parsing
+
+Annotation standardization
+
+Programmatic integration of protein databases
+
+Structured data pipelines for AI modeling
+
+Web scraping and API retrieval are foundational for building scalable bioinformatics workflows.
+
+This project bridges data engineering and translational cancer research.
+
+---
+
+## ⚠️ Limitations
+
+Relies on public website structure stability
+
+UniProt uploadlist endpoint may change
+
+Limited error handling
+
+No caching or retry logic
+
+No rate-limit management
+
+No production-level logging
+
+---
+
+## 🚀 Future Improvements
+
+Implement official UniProt REST API (new endpoint)
+
+Add robust exception handling
+
+Add rate limiting and retry logic
+
+Convert to reusable Python package
+
+Build CLI tool for automated metadata retrieval
+
+Integrate into TCGA RNA-seq ML pipeline
+
+Deploy as data ingestion microservice
+
+---
+
+## 🧬 Translational Relevance
+
+This project enables:
+
+Automated cancer omics metadata retrieval
+
+AI-ready data preprocessing pipelines
+
+Integration of protein annotations into ML workflows
+
+Scalable translational bioinformatics systems
